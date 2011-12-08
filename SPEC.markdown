@@ -62,7 +62,7 @@ Mix(NonAlchoholic).into Tea, Coffee
 Now, we can ask our objects if they're an alchoholic beverages:
 
 ```coffeescript
-Beer.containsAlchohol   #==> true
-Tea.containsAlchohol    #==> false 
-Coffee.containsAlchohol #==> false
+Beer.containsAlchohol()   #==> true
+Tea.containsAlchohol()    #==> false 
+Coffee.containsAlchohol() #==> false
 ```
