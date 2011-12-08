@@ -1,0 +1,9 @@
+{ 
+  "name":         "mix",
+  "version":      "0.0.1",
+  "description":  "Mix properties into objects with ease.",
+  "author":       "Matt Parker <moonmaster9000@gmail.com>",
+  "devDependencies": {
+    "cucumber": "*"
+  }
+}

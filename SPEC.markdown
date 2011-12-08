@@ -59,7 +59,7 @@ Mix(Alchoholic).into Beer
 Mix(NonAlchoholic).into Tea, Coffee
 ```
 
-Now, we can ask our objects if they're an alchoholic beverages:
+Now, we can ask our objects if they're alchoholic:
 
 ```coffeescript
 Beer.containsAlchohol()   #==> true
