@@ -1,6 +1,10 @@
 Feature: Mix API
   
-
+  Background:
+    Given I have required 'mix':
+      """
+        var Mix = require('mix');
+      """
 
   Scenario: Mixing properties into an object's prototype
     Given a Coffee class:
@@ -10,14 +14,14 @@ Feature: Mix API
 
     And a Drinkable object with a `drink` method:
       """
-        Drinkable = {
+        var Drinkable = {
           drink: function(){
             return true;
           }
         };
       """
 
-    When I use the Mix API to mix `Drinkable` into `Coffee`:
+    When I use the Mix API to mix `Drinkable` into `Coffee.prototype`:
       """
         Mix(Drinkable).into(Coffee.prototype);
       """

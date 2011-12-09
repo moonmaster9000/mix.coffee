@@ -1,23 +1,24 @@
-var MixWrapper = function() {
-  this.Given(/^a Coffee class:$/, function(string, callback) {
-    eval(string);
-    callback();
-  });
-
-  this.Given(/^a Drinkable object with a `drink` method:$/, function(string, callback) {
-    eval(string);
-    callback();
-  });
-
-  this.When(/^I use the Mix API to mix `Drinkable` into `Coffee`:$/, function(string, callback) {
-    eval(string);
-    callback();
-  });
-
-  this.Then(/^instances of Coffee should include a `drink` method:$/, function(string, callback) {
-    eval(string);
-    callback();
-  });
-};
-
-module.exports = MixWrapper;
+(function() {
+  module.exports = function() {
+    this.Given(/^I have required 'mix':$/, function(string, next) {
+      eval(string);
+      return next();
+    });
+    this.Given(/^a Coffee class:$/, function(string, next) {
+      eval(string);
+      return next();
+    });
+    this.Given(/^a Drinkable object with a `drink` method:$/, function(string, next) {
+      eval(string);
+      return next();
+    });
+    this.When(/^I use the Mix API to mix `Drinkable` into `Coffee.prototype`:$/, function(string, next) {
+      eval(string);
+      return next();
+    });
+    return this.Then(/^instances of Coffee should include a `drink` method:$/, function(string, next) {
+      eval(string);
+      return next();
+    });
+  };
+}).call(this);
