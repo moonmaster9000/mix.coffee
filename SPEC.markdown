@@ -1,16 +1,14 @@
 # mix.coffee
 
-A simple library for mixing properties into your javascript probjects. This is similar to "include" and "extend" in ruby land.
+A simple library for mixing properties into your javascript objects and prototypes. This is similar to the "extend" keyword in ruby land, except notably less awesome.
 
 ## Installation
 
-Use the "downloads" tab on the Github page for this project to download a release.
+This library is available as:
 
-If you use Rails 3.1, you can include the "mix" gem into your project's Gemfile:
-
-    gem 'mix'
-
-The engine includes the "mix" coffeescript library as an asset that you can use in your asset pipeline.
+* a node package ("mix")
+* a rails 3.1 engine gem for use within the asset pipeline ("mix")
+* a standalone javascript file (see the "Downloads" tab)
 
 ## Tutorial
 
