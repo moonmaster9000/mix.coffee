@@ -36,6 +36,8 @@ Mix(Drinkable).into Coffee.protoype, Beer.prototype, Tea.prototype
 
 Notice that we passed the prototype for our objects to our `Mix` API.
 
+You can mix several objects at once:
+
 Now, if we create an instance of any of our classes, we'll be able to `drink` them:
 
 ```coffeescript
@@ -63,4 +65,10 @@ Now, we can ask our objects if they're alchoholic:
 Beer.containsAlchohol()   #==> true
 Tea.containsAlchohol()    #==> false 
 Coffee.containsAlchohol() #==> false
+```
+
+Note that we're not limited to mixing only one object at a time:
+
+```coffeescript
+Mix(A, B, C).into D, E, F, G
 ```
