@@ -46,5 +46,8 @@ Feature: Mix API
 
         D.a()
         D.b()
+        D.c()
+        E.a()
+        E.b()
         E.c()
       """
