@@ -1,3 +1,4 @@
 *.swp
 npm-debug.log
+releases/
 node_modules/
