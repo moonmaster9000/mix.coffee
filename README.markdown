@@ -39,8 +39,6 @@ Mix(Drinkable).into Coffee.protoype, Beer.prototype, Tea.prototype
 
 Notice that we passed the prototype for our objects to our `Mix` API.
 
-You can mix several objects at once:
-
 Now, if we create an instance of any of our classes, we'll be able to `drink` them:
 
 ```coffeescript

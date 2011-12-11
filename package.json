@@ -4,7 +4,7 @@
   "description":  "Mix properties into objects with ease.",
   "author":       "Matt Parker <moonmaster9000@gmail.com>",
   "homepage":     "http://github.com/moonmaster9000/mix.coffee",
-  "main":         "./src/mix.js",
+  "main":         "./src/javascripst/mix.js",
   "scripts": {
     "test": "cucumber.js"
   },
@@ -13,7 +13,7 @@
     "url": "http://github.com/moonmaster9000/mix.coffee"
   },
   "directories": {
-    "lib": "./src"
+    "lib": "./src/javascripts/"
   },
   "devDependencies": {
     "cucumber": "*",
