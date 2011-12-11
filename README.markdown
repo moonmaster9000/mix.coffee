@@ -9,8 +9,8 @@ This library is available as:
 * a node package ("npm install mix")
 * a standalone javascript file (prettified or minified, downloaded through the "Downloads" tab on this page)
 * a rails 3.1 engine gem for use within the asset pipeline ("mix")
-  ** `gem mix` inside your Gemfile
-  ** `require mix` inside your application.js asset file
+  * `gem mix` inside your Gemfile
+  * `require mix` inside your application.js asset file
 
 ## Tutorial
 
