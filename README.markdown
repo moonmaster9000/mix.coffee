@@ -7,11 +7,11 @@ A simple library for mixing properties into your javascript objects and prototyp
 This library is available as:
 
 * a node package ("mix")
+* a standalone javascript file (prettified or minified, downloaded through the "Downloads" tab on this page)
 
 In the future, I plan to make it available as:
 
 * a rails 3.1 engine gem for use within the asset pipeline ("mix")
-* a standalone javascript file (downloaded through the "Downloads" tab on this page)
 
 ## Tutorial
 
