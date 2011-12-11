@@ -7,13 +7,13 @@
   "main":         "./src/mix.js",
   "scripts": {
     "test": "cucumber.js"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/moonmaster9000/mix.coffee"
   },
   "directories": {
-    "lib": "./src",
+    "lib": "./src"
   },
   "devDependencies": {
     "cucumber": "*",
