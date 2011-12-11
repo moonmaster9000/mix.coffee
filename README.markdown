@@ -6,11 +6,13 @@ A simple library for mixing properties into your javascript objects and prototyp
 
 This library is available as:
 
-* a node package ("npm install mix")
-* a standalone javascript file (prettified or minified, downloaded through the "Downloads" tab on this page)
+* a node package
+  * `npm install -g mix`
+  * `var Mix = require('mix');`
 * a rails 3.1 engine gem for use within the asset pipeline ("mix")
   * `gem 'mix'` inside your Gemfile
   * `require mix` inside your application.js asset file
+* a standalone javascript file (prettified or minified, downloaded through the "Downloads" tab on this page)
 
 ## Tutorial
 
