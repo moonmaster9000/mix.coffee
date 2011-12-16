@@ -5,6 +5,7 @@
   "author":       "Matt Parker <moonmaster9000@gmail.com>",
   "homepage":     "http://github.com/moonmaster9000/mix.coffee",
   "main":         "./src/javascripst/mix.js",
+  "keywords":     ["mixin", "module", "include", "extend", "composition"],
   "scripts": {
     "test": "cucumber.js"
   },
